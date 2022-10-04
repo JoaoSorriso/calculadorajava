@@ -12,12 +12,12 @@ Projeto criado para treinar conhecimento em JAVA e suas bibliotecas, Banco de Da
 🚧 Em construção
 
 ### Features:
-- [] GUI
-- [] Digitação por botões
-- [] Soma
-- [] Subtração
-- [] Multiplicação
-- [] Divisão
-- [] Raiz
-- [] Quadrado
-- [] Log em BD
+- [ ] GUI
+- [ ] Digitação por botões
+- [ ] Soma
+- [ ] Subtração
+- [ ] Multiplicação
+- [ ] Divisão
+- [ ] Raiz
+- [ ] Quadrado
+- [ ] Log em BD
