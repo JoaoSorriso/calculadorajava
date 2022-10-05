@@ -10,9 +10,9 @@
 <?import javafx.scene.text.Font?>
 
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.controller.PrimaryController">
    <top>
-      <TextField alignment="CENTER_RIGHT" editable="false" prefHeight="31.0" prefWidth="429.0" text="0" BorderPane.alignment="CENTER">
+      <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" prefHeight="31.0" prefWidth="429.0" text="0" BorderPane.alignment="CENTER">
          <font>
             <Font name="Consolas" size="40.0" />
          </font>
@@ -37,62 +37,62 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="4" GridPane.rowIndex="2">
+            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="4" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="7" GridPane.rowIndex="3">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="7" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="1" GridPane.rowIndex="1">
+            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="1" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Button contentDisplay="CENTER" layoutX="135.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="77.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="C">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="77.0" mnemonicParsing="false" onAction="#clear" prefHeight="51.0" prefWidth="103.0" text="C">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="CE" GridPane.columnIndex="1">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#clearElement" prefHeight="51.0" prefWidth="103.0" text="CE" GridPane.columnIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -132,7 +132,7 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="." GridPane.rowIndex="4">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#digitarNumero" prefHeight="51.0" prefWidth="103.0" text="." GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>

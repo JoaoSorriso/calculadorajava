@@ -14,7 +14,7 @@ Foram utilizados SceneBuilder para criação da interface, banco de dados ORACLE
 
 ### Features:
 - [x] GUI
-- [ ] Digitação por botões
+- [x] Digitação por botões
 - [ ] Soma
 - [ ] Subtração
 - [ ] Multiplicação
