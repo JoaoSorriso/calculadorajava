@@ -54,6 +54,8 @@ public class PrimaryController {
         double resultado = 0;
         if (operacao.equals("+")) resultado = numero1 + numero2;
         if (operacao.equals("-")) resultado = numero1 - numero2;
+        if (operacao.equals("/")) resultado = numero1 / numero2;
+        if (operacao.equals("X")) resultado = numero1 * numero2;
         display.setText(String.valueOf(resultado));
     }
 }
