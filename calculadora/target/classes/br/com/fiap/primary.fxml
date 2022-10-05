@@ -127,7 +127,7 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="252.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="Quad" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Button contentDisplay="CENTER" layoutX="252.0" layoutY="16.0" mnemonicParsing="false" onAction="#quadrado" prefHeight="51.0" prefWidth="103.0" text="Quad" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>

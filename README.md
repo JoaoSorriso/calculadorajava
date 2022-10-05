@@ -20,5 +20,5 @@ Foram utilizados SceneBuilder para criação da interface, banco de dados ORACLE
 - [ ] Multiplicação
 - [ ] Divisão
 - [x] Raiz
-- [ ] Quadrado
+- [x] Quadrado
 - [ ] Log em BD

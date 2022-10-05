@@ -32,5 +32,10 @@ public class PrimaryController {
         display.setText(String.valueOf(raiz));
     }
     
+    public void quadrado(){
+        double valorDoDisplay = Double.valueOf(display.getText());
+        double quadrado = Math.pow(valorDoDisplay, 2);
+        display.setText(String.valueOf(quadrado));
+    }
 
 }
