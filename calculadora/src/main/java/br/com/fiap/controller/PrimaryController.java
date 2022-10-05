@@ -39,12 +39,14 @@ public class PrimaryController {
         double valorDoDisplay = Double.valueOf(display.getText());
         double raiz = Math.sqrt(valorDoDisplay);
         display.setText(String.valueOf(raiz));
+        salvarLog(new Log(valorDoDisplay, 0, "raiz", raiz));
     }
     
     public void quadrado(){
         double valorDoDisplay = Double.valueOf(display.getText());
         double quadrado = Math.pow(valorDoDisplay, 2);
         display.setText(String.valueOf(quadrado));
+        salvarLog(new Log(valorDoDisplay, 0, "quadrado", quadrado));
     }
 
     public void operacao(ActionEvent event){
@@ -64,13 +66,18 @@ public class PrimaryController {
         if (operacao.equals("X")) resultado = numero1 * numero2;
 
         display.setText(String.valueOf(resultado));
+        
+        salvarLog(new Log(numero1, numero2, operacao, resultado));
+
+    }
+
+    private void salvarLog(Log log){
         try{
-            new LogDao().inserir(new Log(numero2, numero2, operacao, resultado));
+            new LogDao().inserir(log);
         }catch(SQLException e){
             var alerta = new Alert(AlertType.ERROR);
             alerta.setContentText("Não foi possível salvar a operação no BD");
             alerta.show();
         }
     }
-
 }
