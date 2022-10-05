@@ -10,6 +10,7 @@ public class PrimaryController {
     @FXML private TextField display;
 
     private double numero1;
+    private String operacao;
 
     public void digitarNumero(ActionEvent event){
         Button botao = (Button) event.getSource();
@@ -40,14 +41,19 @@ public class PrimaryController {
         display.setText(String.valueOf(quadrado));
     }
 
-    public void soma(){
+    public void operacao(ActionEvent event){
+        Button botao = (Button) event.getSource();
         this.numero1 = Double.valueOf(display.getText());
+        this.operacao = botao.getText();
         clear();
     }
 
+
     public void calcular(){
         double numero2 = Double.valueOf(display.getText());
-        double resultado = numero1 + numero2;
+        double resultado = 0;
+        if (operacao.equals("+")) resultado = numero1 + numero2;
+        if (operacao.equals("-")) resultado = numero1 - numero2;
         display.setText(String.valueOf(resultado));
     }
 }

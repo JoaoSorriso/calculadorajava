@@ -97,17 +97,17 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#soma" prefHeight="51.0" prefWidth="103.0" text="+" GridPane.columnIndex="3">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#operacao" prefHeight="51.0" prefWidth="103.0" text="+" GridPane.columnIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#operacao" prefHeight="51.0" prefWidth="103.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#operacao" prefHeight="51.0" prefWidth="103.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -117,7 +117,7 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Button contentDisplay="CENTER" layoutX="18.0" layoutY="16.0" mnemonicParsing="false" onAction="#operacao" prefHeight="51.0" prefWidth="103.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>

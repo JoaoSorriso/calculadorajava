@@ -16,7 +16,7 @@ Foram utilizados SceneBuilder para criação da interface, banco de dados ORACLE
 - [x] GUI
 - [x] Digitação por botões
 - [x] Soma
-- [ ] Subtração
+- [x] Subtração
 - [ ] Multiplicação
 - [ ] Divisão
 - [x] Raiz
