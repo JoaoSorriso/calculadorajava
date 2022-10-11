@@ -76,7 +76,7 @@ public class PrimaryController {
             new LogDao().inserir(log);
         }catch(SQLException e){
             var alerta = new Alert(AlertType.ERROR);
-            alerta.setContentText("Não foi possível salvar a operação no BD");
+            alerta.setContentText("Não foi possível salvar a operação no BD"+e.getMessage());
             alerta.show();
         }
     }
